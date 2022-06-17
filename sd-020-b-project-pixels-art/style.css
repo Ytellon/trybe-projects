@@ -1,0 +1,65 @@
+body {
+    font-family: 'Rowdies', cursive;
+    background-image: url(../pixelscolor.png);
+    text-align: center;
+    background-position: 25% 25% 25%;
+    background-size: cover;
+}
+
+#title {
+    color: white;
+    border-style: 20px;
+    text-shadow: 4px -1px 0 rgb(4, 6, 7);
+}
+
+#color-palette {
+  border: 2px solid rgb(245, 241, 241);
+}
+
+.color {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.pixel {
+    background-color: white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#pixel-board {
+    text-align: center;
+    margin-top: 5px;
+    line-height: 0;
+}
+
+#clear-board {
+background: #040c0c;
+color: white;
+border-style: outset;
+border-color: #fcfcfc;
+height: 40px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+}

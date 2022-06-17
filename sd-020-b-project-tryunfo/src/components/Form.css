@@ -1,0 +1,27 @@
+/* stylelint-disable comment-empty-line-before */
+button {
+  margin: 0 auto;
+  padding: 10px;
+  width: 30%;
+}
+
+h1 {
+  text-align: center;
+}
+
+select {
+  margin-left: 20px;
+  width: 30%;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  padding: 100px;
+}
+
+label {
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Mono&display=swap');
+
+
+.countdown {
+  color: white;
+  font-family: Kdam Thmor Pro , sans-serif;
+  font-size: 60px;
+}
+
+.questionText {
+  color: white;
+  font-family: Kdam Thmor Pro , sans-serif;
+  font-size: 25px;
+}
+
+.questionCategory {
+  color: white;
+  font-family: Kdam Thmor Pro , sans-serif;
+  font-size: 30px;
+}
+
+.question {
+  display: flex;
+}
+
+.answers, .trueAnswer, .falseAnswer {
+  background-color: #3a92c8a0;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px;
+  padding: 20px 80px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #263666;
+  width: 100%;
+}
+
+p {
+  font-size: 30px;
+}
+
+.gameContainer {
+  align-items: center;
+  backdrop-filter: blur(4.6px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 70vh;
+  justify-content: space-evenly;
+}
+
+.trueAnswer {
+  background-color: rgba(6, 240, 14, 0.5);
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.falseAnswer {
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 3px solid red;
+}
+
+.divNextBtn, .divCountdown {
+  display: flex;
+  justify-content: center;
+}
+
+.divQuestion {
+  align-items: center;
+  backdrop-filter: blur(4.6px);
+  background: #18d87b6d;
+  border: 3px solid #18d87b6d;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nextBtn {
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Kdam Thmor Pro , sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 75px;
+  text-decoration: none;
+}
+
+.nextBtn:active {
+  position: relative;
+  top: 1px;
+}

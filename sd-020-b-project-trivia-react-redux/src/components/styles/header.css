@@ -1,0 +1,15 @@
+.header {
+  align-items: center;
+  backdrop-filter: blur(4.6px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  color: #18d87b;
+  font-family: Kdam Thmor Pro , sans-serif;
+  font-size: 30px;
+  text-shadow: 0 5px 10px rgba(150, 150, 150, 1);
+}
